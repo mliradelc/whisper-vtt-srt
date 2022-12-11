@@ -3,6 +3,8 @@ Automatic Whisper subtitle generation
 
 This repository uses [OpenAI's Whisper](https://openai.com/blog/whisper) to generate subtitle files for any video.
 
+It would be useful to add here what this fork provides that the native whisper .vtt and .srt output does not. Do you have better break lengths, better handling of pauses in speaking, or improvements on display duration due to your process of converting the timestamps and words into vtt and srt segments?
+
 ## Installation
 
 To get started, you'll need Python 3.7 or newer. Install the binary by running the following command:
